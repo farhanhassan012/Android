@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context="com.example.farhanhassan.myapplication30_11_17.MainActivity">
+
+
+    <EditText
+        android:id="@+id/namtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/pastxt"
+        android:layout_alignLeft="@+id/pastxt"
+        android:layout_alignStart="@+id/pastxt" />
+
+    <EditText
+        android:id="@+id/pastxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="98dp"
+        android:layout_above="@+id/logbtn"
+        android:layout_alignRight="@+id/abubtn"
+        android:layout_alignEnd="@+id/abubtn"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/conbtn"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:text="Contact"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hombtn"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/conbtn"
+        android:layout_toRightOf="@+id/conbtn"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Home"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/abubtn"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/hombtn"
+        android:layout_toRightOf="@+id/hombtn"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="About us"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/emailbtn"
+        android:layout_width="100sp"
+        android:layout_height="60sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/abubtn"
+        android:layout_toRightOf="@+id/abubtn"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Email"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
