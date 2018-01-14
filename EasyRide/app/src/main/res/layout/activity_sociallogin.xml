@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.farhanhassan.easyride.Sociallogin">
+
+
+    <Button
+        android:id="@+id/facebookbtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="37dp"
+        android:background="@android:color/transparent"
+        android:text="Facebook"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/gmailbtn"
+        android:layout_alignStart="@+id/gmailbtn" />
+
+    <Button
+        android:id="@+id/gmailbtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="Google"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/facebookbtn"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/gmial"
+        android:layout_alignStart="@+id/gmial"
+        android:layout_alignTop="@+id/facebookbtn"
+        app:srcCompat="@drawable/facebook"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/gmail"
+        android:id="@+id/imageView4"
+        android:layout_alignTop="@+id/gmailbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
